@@ -11,7 +11,9 @@ struct HourData: View {
     var body: some View {
        
         ScrollView(.horizontal, showsIndicators: false) {
-           
+            Text("Sunny conditons will continue all day.")
+                .foregroundColor(.white)
+                .background(Color.blue.opacity(0.8))
             HStack {
                
                 ForEach(HourlyData.mockData) { hour in

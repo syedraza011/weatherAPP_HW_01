@@ -17,7 +17,6 @@
 		E9920DC82A36851100773A52 /* HourData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DC72A36851100773A52 /* HourData.swift */; };
 		E9920DCA2A36911000773A52 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DC92A36911000773A52 /* LineView.swift */; };
 		E9920DCC2A369F3700773A52 /* HourHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DCB2A369F3700773A52 /* HourHeader.swift */; };
-		E9920DCE2A36A42900773A52 /* DailyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DCD2A36A42900773A52 /* DailyHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		E9920DC72A36851100773A52 /* HourData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourData.swift; sourceTree = "<group>"; };
 		E9920DC92A36911000773A52 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 		E9920DCB2A369F3700773A52 /* HourHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourHeader.swift; sourceTree = "<group>"; };
-		E9920DCD2A36A42900773A52 /* DailyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 				E9920DCB2A369F3700773A52 /* HourHeader.swift */,
 				E9920DC72A36851100773A52 /* HourData.swift */,
 				E9920DC92A36911000773A52 /* LineView.swift */,
-				E9920DCD2A36A42900773A52 /* DailyHeader.swift */,
 				E9920DC12A367BB000773A52 /* DailyData.swift */,
 			);
 			path = Views;
@@ -179,7 +176,6 @@
 				E9920DCC2A369F3700773A52 /* HourHeader.swift in Sources */,
 				E9920DC22A367BB000773A52 /* DailyData.swift in Sources */,
 				E9920DC02A367A5E00773A52 /* DataModel.swift in Sources */,
-				E9920DCE2A36A42900773A52 /* DailyHeader.swift in Sources */,
 				E9920DBE2A36796200773A52 /* Header.swift in Sources */,
 				E9920DCA2A36911000773A52 /* LineView.swift in Sources */,
 				E9920DB02A36788F00773A52 /* weatherAPP_HW_01App.swift in Sources */,
