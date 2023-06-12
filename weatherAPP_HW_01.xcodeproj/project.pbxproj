@@ -11,6 +11,13 @@
 		E9920DB22A36788F00773A52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DB12A36788F00773A52 /* ContentView.swift */; };
 		E9920DB42A36789300773A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9920DB32A36789300773A52 /* Assets.xcassets */; };
 		E9920DB72A36789300773A52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9920DB62A36789300773A52 /* Preview Assets.xcassets */; };
+		E9920DBE2A36796200773A52 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DBD2A36796200773A52 /* Header.swift */; };
+		E9920DC02A367A5E00773A52 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DBF2A367A5E00773A52 /* DataModel.swift */; };
+		E9920DC22A367BB000773A52 /* DailyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DC12A367BB000773A52 /* DailyData.swift */; };
+		E9920DC82A36851100773A52 /* HourData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DC72A36851100773A52 /* HourData.swift */; };
+		E9920DCA2A36911000773A52 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DC92A36911000773A52 /* LineView.swift */; };
+		E9920DCC2A369F3700773A52 /* HourHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DCB2A369F3700773A52 /* HourHeader.swift */; };
+		E9920DCE2A36A42900773A52 /* DailyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9920DCD2A36A42900773A52 /* DailyHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		E9920DB12A36788F00773A52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9920DB32A36789300773A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9920DB62A36789300773A52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9920DBD2A36796200773A52 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		E9920DBF2A367A5E00773A52 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E9920DC12A367BB000773A52 /* DailyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyData.swift; sourceTree = "<group>"; };
+		E9920DC72A36851100773A52 /* HourData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourData.swift; sourceTree = "<group>"; };
+		E9920DC92A36911000773A52 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		E9920DCB2A369F3700773A52 /* HourHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourHeader.swift; sourceTree = "<group>"; };
+		E9920DCD2A36A42900773A52 /* DailyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,9 @@
 		E9920DAE2A36788F00773A52 /* weatherAPP_HW_01 */ = {
 			isa = PBXGroup;
 			children = (
+				E9920DC42A3681A400773A52 /* Views */,
+				E9920DC32A36819400773A52 /* DataModel */,
 				E9920DAF2A36788F00773A52 /* weatherAPP_HW_01App.swift */,
-				E9920DB12A36788F00773A52 /* ContentView.swift */,
 				E9920DB32A36789300773A52 /* Assets.xcassets */,
 				E9920DB52A36789300773A52 /* Preview Content */,
 			);
@@ -65,6 +80,28 @@
 				E9920DB62A36789300773A52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9920DC32A36819400773A52 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				E9920DBF2A367A5E00773A52 /* DataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		E9920DC42A3681A400773A52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9920DB12A36788F00773A52 /* ContentView.swift */,
+				E9920DBD2A36796200773A52 /* Header.swift */,
+				E9920DCB2A369F3700773A52 /* HourHeader.swift */,
+				E9920DC72A36851100773A52 /* HourData.swift */,
+				E9920DC92A36911000773A52 /* LineView.swift */,
+				E9920DCD2A36A42900773A52 /* DailyHeader.swift */,
+				E9920DC12A367BB000773A52 /* DailyData.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9920DB22A36788F00773A52 /* ContentView.swift in Sources */,
+				E9920DC82A36851100773A52 /* HourData.swift in Sources */,
+				E9920DCC2A369F3700773A52 /* HourHeader.swift in Sources */,
+				E9920DC22A367BB000773A52 /* DailyData.swift in Sources */,
+				E9920DC02A367A5E00773A52 /* DataModel.swift in Sources */,
+				E9920DCE2A36A42900773A52 /* DailyHeader.swift in Sources */,
+				E9920DBE2A36796200773A52 /* Header.swift in Sources */,
+				E9920DCA2A36911000773A52 /* LineView.swift in Sources */,
 				E9920DB02A36788F00773A52 /* weatherAPP_HW_01App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
