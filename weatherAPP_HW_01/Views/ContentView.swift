@@ -17,7 +17,7 @@ struct ContentView: View {
             ScrollView (.vertical ) {
                 VStack {
                     Header()
-                    HourHeader()
+                  
                     HourData()
                    
                     DailyData()
@@ -27,7 +27,9 @@ struct ContentView: View {
                 }
             }
         }
+        
     }
+        
 }
 
 
