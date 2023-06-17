@@ -8,8 +8,7 @@
 import Foundation
 
 struct HourlyData: Identifiable{
-//    var id:ObjectIdentifier
-    var id=UUID()
+var id=UUID()
    
     let time: String
     let image: String
@@ -92,6 +91,16 @@ struct DayData: Identifiable {
     ]
 }
 
-
-
-
+//struct GridData: Identifiable {
+//    var id=UUID()
+//    let day:String
+//    let image:String
+//    let lowTemp:String
+//    let highTemp: String
+//    
+//    static let GridData=[
+//        GridData(day: "Today",image:"cloud.drizzle.fill", lowTemp: "50°",highTemp: "77°"),
+//        GridData(day: "Tue",image:"cloud.drizzle.fill", lowTemp: "34°",highTemp: "47°")
+//        
+//    ]
+//}

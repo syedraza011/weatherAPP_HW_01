@@ -21,7 +21,7 @@ struct ContentView: View {
                     HourData()
                    
                     DailyData()
-                       
+                       GridView()
                         .padding()
                  
                 }
